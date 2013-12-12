@@ -1,0 +1,23 @@
+USE [SRO_VT_SHARD_INIT]
+GO
+
+/****** Object:  Table [dbo].[UniqueKills]    Script Date: 04/11/2012 23:06:39 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[UniqueKills](
+    [CharName16] [varchar](20) NOT NULL,
+    [Monster] [varchar](50) NOT NULL,
+    [Timestamp] [varchar](12) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
