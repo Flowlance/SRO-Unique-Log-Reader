@@ -1,5 +1,5 @@
 <?php
-// By Flowlance (danny@leetcake.net)
+// By Flowlance
 date_default_timezone_set("Europe/Amsterdam"); // Your server's timezone
 
 $settings = array(
