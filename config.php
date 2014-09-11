@@ -1,5 +1,5 @@
 <?php 
-// By Flowlance (danny@leetcake.net)
+// By Flowlance
 class mssql {
     var $shard;
     var $account;
